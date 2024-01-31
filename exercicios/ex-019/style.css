@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/*tudo que em html é id, em CSS é #(só posso ter um id com o mesmo elemento por pagina)
+tudo que em html é class, em CSS é .(posso ter vários elementos com o mesmo nome por pagina)*/
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: blue;
+}
+/* se não colocar o h1, em todo lugar que eu colocar a palavra principal, vai receber essa configuração, porem não é recomendado usar mais de uma vez o mesmo id por pagina; é recomendado usar class. Da mesma forma para as class*/
+h1#principal {
+    text-align: center;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+.basico {
+    color: blueviolet;
+}
+
+.intermediario {
+    color: blue;
+}
+
+.avançado {
+    color: chocolate;
+}

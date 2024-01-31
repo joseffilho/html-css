@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        /*importantes para criar seletores personalizados
+        em html é css
+        # é id
+        . é class
+        : é pseudo-class
+        :: é pseudo-element
+        > é children*/
+        body{
+            font-family: sans-serif;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: blueviolet;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: chartreuse;
+        }
+
+        a::after {
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="">Repositório Github</a></li>
+        <li><a href="">Canal do youtube</a></li>
+        <li><a href="">Site do curso em video</a></li>
+    </ul>
+</body>
+</html>
