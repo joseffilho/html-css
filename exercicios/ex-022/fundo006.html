@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
 
         * {
@@ -13,16 +13,22 @@
 
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
+
+            /*a ordem dos background são: color, image, position, repeat, size com observações, attachment*/
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -33,6 +39,11 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sunt exercitationem praesentium beatae vero consequuntur accusantium dolores cumque ad incidunt voluptas, natus corporis ullam expedita, ab voluptatem eos modi amet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quidem accusamus, ex quod voluptates et ipsam accusantium, deleniti necessitatibus soluta, officia molestias officiis vitae porro corrupti. Reiciendis amet in fugit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sunt exercitationem praesentium beatae vero consequuntur accusantium dolores cumque ad incidunt voluptas, natus corporis ullam expedita, ab voluptatem eos modi amet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quidem accusamus, ex quod voluptates et ipsam accusantium, deleniti necessitatibus soluta, officia molestias officiis vitae porro corrupti. Reiciendis amet in fugit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sunt exercitationem praesentium beatae vero consequuntur accusantium dolores cumque ad incidunt voluptas, natus corporis ullam expedita, ab voluptatem eos modi amet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quidem accusamus, ex quod voluptates et ipsam accusantium, deleniti necessitatibus soluta, officia molestias officiis vitae porro corrupti. Reiciendis amet in fugit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sunt exercitationem praesentium beatae vero consequuntur accusantium dolores cumque ad incidunt voluptas, natus corporis ullam expedita, ab voluptatem eos modi amet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quidem accusamus, ex quod voluptates et ipsam accusantium, deleniti necessitatibus soluta, officia molestias officiis vitae porro corrupti. Reiciendis amet in fugit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sunt exercitationem praesentium beatae vero consequuntur accusantium dolores cumque ad incidunt voluptas, natus corporis ullam expedita, ab voluptatem eos modi amet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quidem accusamus, ex quod voluptates et ipsam accusantium, deleniti necessitatibus soluta, officia molestias officiis vitae porro corrupti. Reiciendis amet in fugit.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sunt exercitationem praesentium beatae vero consequuntur accusantium dolores cumque ad incidunt voluptas, natus corporis ullam expedita, ab voluptatem eos modi amet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quidem accusamus, ex quod voluptates et ipsam accusantium, deleniti necessitatibus soluta, officia molestias officiis vitae porro corrupti. Reiciendis amet in fugit.</p>
     </main>
 </body>
