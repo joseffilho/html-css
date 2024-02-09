@@ -1,0 +1,118 @@
+
+@charset "UTF-8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    /*text-transform: uppercase;*/
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+
+
+
+/*body {
+    background-image: url('flores.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 60px 0px;
+}
+
+main {
+    font-size: 1.5em;
+}
+
+p {
+    max-width: 300px;
+    padding-bottom: 50px;
+}
+
+footer {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.paragrafo__header {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 0px;
+    margin: 0px;
+}
+
+.paragrafo__fundobranco {
+    background-color: white;
+    padding: 60px 0px 50px 20px;
+}
+
+.paragrafos__imagem__nofundo {
+    padding: 50px 0px 50px 20px;
+}*/

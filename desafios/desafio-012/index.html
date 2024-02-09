@@ -4,55 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cordel Moderno</title>
-    <style>
-
-        body {
-            background-image: url('flores.jpeg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-        }
-        header {
-            background-color: black;
-            color: white;
-            text-align: center;
-            padding: 60px 0px;
-        }
-
-        .paragrafo__header {
-            position: absolute;
-            left: 50%;
-            transform: translate(-50%);
-            padding: 0px;
-            margin: 0px;
-        }
-
-        main {
-            font-size: 1.5em;
-        }
-
-        .paragrafo__fundobranco {
-            background-color: white;
-            padding: 60px 0px 50px 20px;
-        }
-
-        .paragrafos__imagem__nofundo {
-            padding: 50px 0px 50px 20px;
-        }
-
-        p {
-            max-width: 300px;
-            padding-bottom: 50px;
-        }
-
-        footer {
-            font-family: sans-serif;
-            background-color: black;
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -60,20 +12,31 @@
         <p class="paragrafo__header">Por Milton Duarte</p>
     </header>
     <main>
-        <section>
-                <div class="paragrafo__fundobranco">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam quaerat qui repudiandae rerum sit a tempore aspernatur eveniet? Maiores odio voluptate quia quas reiciendis, harum alias explicabo vel inventore quam!</p>
-                </div>
-                <p class="paragrafos__imagem__nofundo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam quaerat qui repudiandae rerum sit a tempore aspernatur eveniet? Maiores odio voluptate quia quas reiciendis, harum alias explicabo vel inventore quam!</p>
-                <div class="paragrafo__fundobranco">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam quaerat qui repudiandae rerum sit a tempore aspernatur eveniet? Maiores odio voluptate quia quas reiciendis, harum alias explicabo vel inventore quam!</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam quaerat qui repudiandae rerum sit a tempore aspernatur eveniet? Maiores odio voluptate quia quas reiciendis, harum alias explicabo vel inventore quam!</p>
-                </div>
-                <p class="paragrafos__imagem__nofundo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam quaerat qui repudiandae rerum sit a tempore aspernatur eveniet? Maiores odio voluptate quia quas reiciendis, harum alias explicabo vel inventore quam!</p>
-                <div class="paragrafo__fundobranco">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam quaerat qui repudiandae rerum sit a tempore aspernatur eveniet? Maiores odio voluptate quia quas reiciendis, harum alias explicabo vel inventore quam!</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam quaerat qui repudiandae rerum sit a tempore aspernatur eveniet? Maiores odio voluptate quia quas reiciendis, harum alias explicabo vel inventore quam!</p>
-                </div>
+        <section class="normal">
+            <p>
+                Lorem ipsum, dolor sit amet <br> consectetur adipisicing elit. <br> Magnam quaerat qui repudiandae <br> rerum sit a tempore aspernatur <br> eveniet? Maiores odio <br> voluptate quia quas <br>
+                reiciendis, harum alias <br> explicabo vel inventore quam!
+            </p> 
+        </section>
+
+        <section class="imagem">
+            <p>Lorem ipsum, dolor sit amet <br> consectetur adipisicing elit. <br> Magnam quaerat qui repudiandae <br> rerum sit a tempore aspernatur <br> eveniet? Maiores odio <br> voluptate quia quas <br> reiciendis, harum alias <br> explicabo vel inventore quam!</p>
+        </section>
+
+        <section class="normal">
+            <p>Lorem ipsum, dolor sit amet <br> consectetur adipisicing elit. <br> Magnam quaerat qui repudiandae <br> rerum sit a tempore aspernatur <br> eveniet? Maiores odio <br> voluptate quia quas <br> reiciendis, harum alias <br> explicabo vel inventore quam!</p>
+
+            <p>Lorem ipsum, dolor sit amet <br> consectetur adipisicing elit. <br> Magnam quaerat qui repudiandae <br> rerum sit a tempore aspernatur <br> eveniet? Maiores odio <br> voluptate quia quas <br> reiciendis, harum alias <br> explicabo vel inventore quam!</p>
+        </section>
+
+        <section class="imagem">
+             <p>Lorem ipsum, dolor sit amet <br> consectetur adipisicing elit <br>. Magnam quaerat qu <br>i repudiandae rerum sit a <br> tempore aspernatur eveniet? <br> Maiores odio voluptate quia <br> quas reiciendis, harum alias <br> explicabo vel inventore quam!</p>
+        </section>
+
+        <section class="normal">
+             <p>ipsum, dolor sit amet <br> consectetur adipisicing elit. <br> Magnam quaerat qui <br> repudiandae rerum sit a <br> tempore aspernatur eveniet? <br> Maiores odio voluptate quia <br> quas reiciendis, harum alias <br> explicabo vel inventore quam!</p>
+                
+             <p>Lorem ipsum, dolor sit amet <br> consectetur adipisicing elit. <br> Magnam quaerat qui <br> repudiandae rerum sit a <br> tempore aspernatur eveniet? <br> Maiores odio voluptate quia <br> quas reiciendis, harum alias <br> explicabo vel inventore quam!</p>
         </section>
     </main>
     <footer>Site criado por <strong>Sérgio Ferreira</strong> com um modelo do prof. <strong>Gustavo Guanabara</strong></footer>
